@@ -1,0 +1,15 @@
+/* Simple Hello, World! program */
+import 'dart:io';
+void main() {
+  print("first num ");
+  int a = stdin.readLineSync();
+  print ("second num ");
+  int b = stdin.readLineSync();
+  
+  if (a != null && b != null) {
+    int num1 = int.parse(a);
+    int num2 = int.parse(b);
+    int sum = (num1 + num2);
+    print("sum of $num1 and $num2 is $sum");
+  }
+}

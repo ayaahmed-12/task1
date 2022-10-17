@@ -1,0 +1,10 @@
+/* Simple Hello, World! program */
+import 'dart:io';
+String capitalizeFirstLetter(String str) => str[0].toUpperCase() 
++str.substring(1);
+
+void main() {
+   String a=stdin.readLineSync();
+    print(capitalizeFirstLetter(a));
+}
+

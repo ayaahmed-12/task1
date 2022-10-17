@@ -1,0 +1,14 @@
+void main() 
+  {
+    int N=1000 ; 
+   num(N);
+  }
+void num(int a)
+{
+  if (a==0)
+  {
+    return;
+  }
+  num(a-1); 
+  print ('$a'); 
+} 

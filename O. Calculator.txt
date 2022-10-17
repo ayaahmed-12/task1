@@ -1,0 +1,14 @@
+/* Simple Hello, World! program */
+import 'dart:io';
+void main() 
+{
+  var A=int.parse(stdin.readLineSync());
+  var B=int.parse(stdin.readLineSync());
+  var c= A + B;
+  var d= A - B;
+  var e= B * A;
+  var f= B / A;
+ 
+  print ('$c,$d,$e,$f'); 
+}
+

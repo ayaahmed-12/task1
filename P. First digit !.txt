@@ -1,0 +1,13 @@
+/* Simple Hello, World! program */
+import 'dart:io';
+void main(){
+   int number = int.parse(stdin.readLineSync());
+   int result = number / 1000;;
+   
+   if (result.toInt() % 2 == 0){
+   print('Even Number');
+   }
+   else{
+ print ('ODD Number');
+   }
+}
